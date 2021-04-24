@@ -1,11 +1,10 @@
-# Lexian's build of dwm
+Lexian's build of dwm
 Nothing special about this build of dwm.
-
-##Patches and features
+---------------------------------------
+Patches and features
 - fullgaps/ This patch adds gaps between client windows.
-
-## Installation
-***
-git clone https://github.com/lLexian/dwm.git
-cd dwm
-sudo make install
+---------------------------------------
+Installation
+- git clone https://github.com/lLexian/dwm.git
+- cd dwm
+- sudo make install
