@@ -1,5 +1,4 @@
 *.diff
 *.rej
-.json
 config.def.h
 dwm.c.orig
