@@ -3,6 +3,7 @@ Nothing special about this build of dwm.
 ---------------------------------------
 Patches and features
 - fullgaps/ This patch adds gaps between client windows.
+- nomonocleborders/ Removes window border when using Monocle (https://gist.github.com/SebastianJarsve/497b2014774c849df0132d7118cbab65#file-dwm-nomonocleborders-20190607-cb3f58a-diff)
 ---------------------------------------
 Installation
 - git clone https://github.com/lLexian/dwm.git
