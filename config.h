@@ -30,6 +30,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",  NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "waterfox", NULL,	  NULL,	      1 << 2,	    0,		 -1 },
 };
 
 /* layout(s) */
@@ -98,7 +99,8 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-	{ MODKEY|ShiftMask,		XK_w,      spawn,          SHCMD("firefox") },
+	/* { MODKEY|ShiftMask,		XK_w,      spawn,          SHCMD("firefox") }, */
+	{ MODKEY|ShiftMask,		XK_w,	   spawn,	   SHCMD("waterfox") },
 	{ MODKEY, 			XK_equal,     spawn,          SHCMD("pamixer -i 2") },
 	{ MODKEY,			XK_minus,     spawn,          SHCMD("pamixer -d 2") },
 };
